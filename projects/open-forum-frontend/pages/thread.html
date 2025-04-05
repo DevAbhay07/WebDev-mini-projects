@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thread Details | Open Forum</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Open Forum</h1>
+    <div><button onclick="logout()">Logout</button></div>
+  </header>
+  <div class="container">
+    <div class="thread-details">
+      <h2>How to understand Quantum Mechanics?</h2>
+      <div class="meta">Posted by John Doe | Category: Physics | 30 March 2025</div>
+      <p>I am struggling with the concepts of Quantum Mechanics, can someone explain?</p>
+    </div>
+
+    <div class="comment-section">
+      <h3>Comments</h3>
+      <div class="comment">
+        <div class="meta">Alice | 5 mins ago</div>
+        <p>You should start with Feynman's Lectures on Physics. They're beginner friendly and conceptually deep.</p>
+      </div>
+      <div class="comment">
+        <div class="meta">Bob | 10 mins ago</div>
+        <p>Try watching 3Blue1Brown’s video series. Visual explanations really help!</p>
+      </div>
+    </div>
+
+    <div class="new-comment">
+      <h3>Post a Comment</h3>
+      <textarea id="commentInput" placeholder="Write your comment..."></textarea>
+      <button onclick="postComment()">Submit</button>
+    </div>
+  </div>
+
+  <script src="../assets/js/script.js"></script>
+</body>
+</html>

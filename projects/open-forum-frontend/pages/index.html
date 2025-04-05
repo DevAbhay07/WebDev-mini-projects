@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Open Forum | Home</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Open Forum</h1>
+    <div>
+      <input type="text" id="searchBar" placeholder="Search threads..." />
+      <button onclick="searchThreads()">Search</button>
+    </div>
+    <div><button onclick="redirectToLogin()">Login</button></div>
+  </header>
+  
+  <div class="container">
+    <h2>Discussion Threads</h2>
+    <div id="threadList">
+      <!-- Threads will be dynamically populated here -->
+    </div>
+  </div>
+
+  <script src="../assets/js/script.js"></script>
+</body>
+</html>
